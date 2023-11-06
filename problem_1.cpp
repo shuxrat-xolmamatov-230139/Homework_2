@@ -8,5 +8,4 @@ void mainAns(float num1, float num2, float arr[]){
     arr[0] = average;
     arr[1] = product;
 
-    return 0;
 }
