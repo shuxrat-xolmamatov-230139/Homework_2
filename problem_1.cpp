@@ -1,10 +1,20 @@
-void problemSolution(float num1, float num2, float arr[]){
-    float average, product;
-    average = (num1 + num2) / 2;
-    product = num1 * num2 ;
+#include <iostream>
 
-    arr[0] = average;
-    arr[1] = product;
+using namespace std;
+
+int main(){
+
+    int base, height;
+    cin >> base >> height;
+
+    cout << "Area of triangle is equal to " << float(base * height) / 2;
+
+    return 0;
 }
 
-problemSolution();
+//void mainAns(int base, int height, float arr[]){
+//    float area;
+//    area = (base * height) / 2;
+//
+//    arr[0] = area;
+}
