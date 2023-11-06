@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void problemSolution(float num1, float num2, float arr[]){
+void main(float num1, float num2, float arr[]){
     float average, product;
     average = (num1 + num2) / 2;
     product = num1*num2 ;
