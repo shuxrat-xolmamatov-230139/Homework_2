@@ -1,6 +1,4 @@
-#include <iostream>
 
-using namespace std;
 
 void mainAns(float num1, float num2, float arr[]){
     float average, product;
